@@ -1,0 +1,7 @@
+{
+  "name": "Crucigrama",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
