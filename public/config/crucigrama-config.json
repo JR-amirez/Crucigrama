@@ -1,0 +1,50 @@
+{
+  "nombreApp": "STEAM-G",
+  "nivel": "intermedio",
+  "version": "1.0",
+  "fecha": "2026-02-16",
+  "descripcion": "Juego para el desarrollo de habilidades matematicas",
+  "plataformas": ["android"],
+  "palabras": [
+    {
+      "answer": "METRO",
+      "clue": "Unidad basica para medir la longitud."
+    },
+    {
+      "answer": "KELVIN",
+      "clue": "Unidad utilizada para medir la temperatura en ciencia."
+    },
+    {
+      "answer": "AMPERIO",
+      "clue": "Unidad que mide la corriente electrica."
+    },
+    {
+      "answer": "SEGUNDO",
+      "clue": "Unidad basica para medir el tiempo."
+    },
+    {
+      "answer": "KILOGRAMO",
+      "clue": "Unidad que usamos para medir la masa."
+    },
+    {
+      "answer": "MOL",
+      "clue": "Unidad que mide la cantidad de sustancia."
+    },
+    {
+      "answer": "CANDELA",
+      "clue": "Unidad que mide la intensidad luminosa."
+    },
+    {
+      "answer": "NEWTON",
+      "clue": "Unidad de medida de la fuerza."
+    },
+    {
+      "answer": "PASCAL",
+      "clue": "Unidad utilizada para medir la presion."
+    },
+    {
+      "answer": "JOULE",
+      "clue": "Unidad de medida de la energia."
+    }
+  ]
+}
