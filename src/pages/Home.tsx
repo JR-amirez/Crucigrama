@@ -1345,8 +1345,7 @@ const Home: React.FC<PlayProps> = ({ difficulty = "intermediate" }) => {
             <div className="ins-stats">
               <p style={{ textAlign: "justify" }}>
                 <strong>
-                  Resuelve mentalmente la operación que aparece en pantalla y
-                  elige la respuesta correcta entre las opciones
+                  Descifra las pistas horizontales y verticales para completar el crucigrama.
                 </strong>
               </p>
             </div>
@@ -1476,12 +1475,6 @@ const Home: React.FC<PlayProps> = ({ difficulty = "intermediate" }) => {
                 <IonIcon slot="start" icon={playCircleOutline}></IonIcon>
                 Iniciar juego
               </IonButton>
-              {!configLoaded && <IonNote>Cargando configuracion...</IonNote>}
-              {configLoaded && wordPool.length === 0 && (
-                <IonNote color="danger">
-                  {configError ?? "No hay palabras disponibles en la configuracion."}
-                </IonNote>
-              )}
               <IonButton onClick={handleInformation} className="info">
                 <IonIcon slot="start" icon={informationCircleOutline}></IonIcon>
                 Información
